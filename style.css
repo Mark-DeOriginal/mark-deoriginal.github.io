@@ -22,20 +22,21 @@ body {
     margin-top: 70px;
     padding: 20px 25px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.932);
+    background-color: rgb(72 72 72 / 93%);
     box-shadow: 0px 8px 18px 4px rgb(0 0 0 / 30%);
     padding-bottom: 25px;
+    border: 1px solid #646464;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    color: rgb(87, 87, 87); 
+    color: rgb(192, 192, 192); 
 }
 
 h4 {
     margin-top: 15px;
     margin-bottom: 30px;
-    color: rgb(153 153 153);
+    color: rgb(192, 192, 192);
     font-weight: normal;
     font-size: 18px;
 }
@@ -48,9 +49,9 @@ input {
     border: none;
     width: 100%;
     font-size: 21px;
-    color: #2e4f50;
-    background-color: #9ec7c9;
-    box-shadow: inset 0px 0px 6px 1px rgb(95 158 160 / 52%);      
+    color: rgb(192, 192, 192);
+    background-color: rgb(92 92 92);
+    box-shadow: inset 0px 0px 6px 1px rgb(124 124 124 / 52%);      
 }
 
 .romanOrNum {
@@ -63,11 +64,11 @@ input:focus {
 }
 
 input:hover {
-    background-color: #b9d5d7;
+    background-color: #6e6d6d;
 }
 
 ::placeholder {
-    color: #619193;
+    color: rgb(192, 192, 192);
     text-transform: capitalize;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -77,8 +78,8 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .error, .error:hover {
-    background-color: #ffcaca;
-    box-shadow: inset 0px 0px 6px 1px rgb(175 164 164);
+    background-color: #c9aeae;
+    box-shadow: inset 0px 0px 6px 1px rgb(157 128 128);
     color: #af5d5d;
 }
 
@@ -89,9 +90,9 @@ input[type=number]::-webkit-inner-spin-button {
     margin-top: 15px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(63 136 139);
-    color: white;
-    box-shadow: 0px 4px 9px 0px rgb(95 158 160 / 74%);
+    background-color: rgb(92 92 92);
+    color: rgb(192, 192, 192);
+    box-shadow: 0px 4px 9px 0px rgb(48 48 48 / 74%);
     cursor: pointer;
 }
 
@@ -100,7 +101,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .btn:hover {
-    background-color: rgb(113 166 169);
+    background-color: #6e6d6d;
 }
 
 .btn:active {
