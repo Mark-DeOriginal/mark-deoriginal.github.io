@@ -78,7 +78,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .error, .error:hover {
-    background-color: #c9aeae;
+    background-color: #efcece;
     box-shadow: inset 0px 0px 6px 1px rgb(157 128 128);
     color: #af5d5d;
 }
